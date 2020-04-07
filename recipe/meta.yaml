@@ -1,5 +1,5 @@
 {% set name = "kcoreaddons" %}
-{% set version = "5.67.0" %}
+{% set version = "5.68.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kcoreaddons-{{ version }}.tar.xz
-  sha256: 95fd37ac2e42ca2a00bd9d67955af57a78e9f1cde69acd1af79cdedb3ec994e3
+  sha256: c578ae30b4161e45e672d613d2d9c5575a849d21909d9817f90a441044df65d7
 
 build:
   number: 0
@@ -42,7 +42,7 @@ about:
   license: LGPL-v2.-or-later
   license_family: GPL
   license_file: COPYING.LIB
-  summary: 'Qt addon library with a collection of non-GUI utilities'
+  summary: Qt addon library with a collection of non-GUI utilities
   description: |
     KCoreAddons provides classes built on top of QtCore to perform various
     tasks such as manipulating mime types, autosaving files, creating backup
