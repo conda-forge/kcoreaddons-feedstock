@@ -1,5 +1,5 @@
 {% set name = "kcoreaddons" %}
-{% set version = "5.69.0" %}
+{% set version = "5.70.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kcoreaddons-{{ version }}.tar.xz
-  sha256: e9cc3bc95dd2e3382d0221fbb6ebe8eb8afe5d14fbd2ce8d375eace9e4e74856
+  sha256: fa86760b2074ccadab0417220fee1253d731ab7f2f4d7a2857ba463ab4ff4781
 
 build:
   number: 0
