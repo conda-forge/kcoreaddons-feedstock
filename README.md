@@ -5,7 +5,7 @@ Home: https://api.kde.org/frameworks/kcoreaddons/html/index.html
 
 Package license: LGPL-v2.-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Qt addon library with a collection of non-GUI utilities
 
