@@ -1,5 +1,5 @@
 {% set name = "kcoreaddons" %}
-{% set version = "5.73.0" %}
+{% set version = "5.74.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kcoreaddons-{{ version }}.tar.xz
-  sha256: 24a7713eaef2f40e648a586e22b030192321f9fecdbae77013b00446fa0d6d51
+  sha256: e122d0750c594dc68dea20e40c833b6615f5ddf21a2b2e439c7236e73f4523a8
 
 build:
   number: 0
@@ -39,9 +39,25 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kcoreaddons/html/index.html
-  license: LGPL-v2.-or-later
+  license: BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-GPL AND LicenseRef-KDE-Accepted-LGPL AND LicenseRef-Qt-Commercial AND MPL-1.1 AND Qt-LGPL-exception-1.1
   license_family: GPL
-  license_file: COPYING.LIB
+  license_file:
+    - LICENSES/BSD-2-Clause.txt
+    - LICENSES/BSD-3-Clause.txt
+    - LICENSES/CC0-1.0.txt
+    - LICENSES/GPL-2.0-only.txt
+    - LICENSES/GPL-2.0-or-later.txt
+    - LICENSES/GPL-3.0-only.txt
+    - LICENSES/LGPL-2.0-only.txt
+    - LICENSES/LGPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.1-only.txt
+    - LICENSES/LGPL-2.1-or-later.txt
+    - LICENSES/LGPL-3.0-only.txt
+    - LICENSES/LicenseRef-KDE-Accepted-GPL.txt
+    - LICENSES/LicenseRef-KDE-Accepted-LGPL.txt
+    - LICENSES/LicenseRef-Qt-Commercial.txt
+    - LICENSES/MPL-1.1.txt
+    - LICENSES/Qt-LGPL-exception-1.1.txt  
   summary: Qt addon library with a collection of non-GUI utilities
   description: |
     KCoreAddons provides classes built on top of QtCore to perform various
