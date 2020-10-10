@@ -14,6 +14,6 @@ cmake -DCMAKE_INSTALL_PREFIX=$PREFIX \
       ..
 
 make -j ${CPU_COUNT}
-ctest -E "kdirwatch_qfswatch_unittest|kautosavefiletest"
+ctest -E "kdirwatch_qfswatch_unittest|kautosavefiletest|kjobtest"
 make install
 popd
