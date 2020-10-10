@@ -1,5 +1,5 @@
 {% set name = "kcoreaddons" %}
-{% set version = "5.74.0" %}
+{% set version = "5.75.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kcoreaddons-{{ version }}.tar.xz
-  sha256: e122d0750c594dc68dea20e40c833b6615f5ddf21a2b2e439c7236e73f4523a8
+  sha256: 9ca2cf82ddc12e27ff73aaefdf616c3eb6552a3a5531f014b5bf52a34a4c73f9
 
 build:
   number: 0
@@ -57,7 +57,7 @@ about:
     - LICENSES/LicenseRef-KDE-Accepted-LGPL.txt
     - LICENSES/LicenseRef-Qt-Commercial.txt
     - LICENSES/MPL-1.1.txt
-    - LICENSES/Qt-LGPL-exception-1.1.txt  
+    - LICENSES/Qt-LGPL-exception-1.1.txt
   summary: Qt addon library with a collection of non-GUI utilities
   description: |
     KCoreAddons provides classes built on top of QtCore to perform various
