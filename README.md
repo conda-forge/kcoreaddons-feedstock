@@ -3,11 +3,13 @@ About kcoreaddons
 
 Home: https://api.kde.org/frameworks/kcoreaddons/html/index.html
 
-Package license: LGPL-v2.-or-later
+Package license: BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-GPL AND LicenseRef-KDE-Accepted-LGPL AND LicenseRef-Qt-Commercial AND MPL-1.1 AND Qt-LGPL-exception-1.1
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kcoreaddons-feedstock/blob/master/LICENSE.txt)
 
 Summary: Qt addon library with a collection of non-GUI utilities
+
+Development: https://cgit.kde.org/kcoreaddons.git/tree
 
 KCoreAddons provides classes built on top of QtCore to perform various
 tasks such as manipulating mime types, autosaving files, creating backup
@@ -33,10 +35,10 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64</td>
+              <td>linux_64_c_compiler_version7cxx_compiler_version7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8470&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kcoreaddons-feedstock?branchName=master&jobName=linux&configuration=linux_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kcoreaddons-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7cxx_compiler_version7" alt="variant">
                 </a>
               </td>
             </tr>
