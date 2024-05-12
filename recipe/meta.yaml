@@ -11,7 +11,7 @@ source:
   sha256: fbab3e3e18f42922ecdc50138ed31f62007cafa902b959d89b1233b5557282d6
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('kcoreaddons', max_pin='x.x') }}
@@ -30,7 +30,7 @@ requirements:
     - {{ cdt('libxxf86vm') }}  # [linux]
   host:
     - xorg-libxfixes  # [linux]
-    - qt
+    - qt-main
     - xorg-libxext
 
 test:
